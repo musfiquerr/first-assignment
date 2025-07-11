@@ -6,6 +6,9 @@
 body{
     background-color: #d6dded22
 }
+.nav-title{
+  color:  #4E47FF;  
+}
 
 .btn-primary{
     background-color: #4E47FF;
