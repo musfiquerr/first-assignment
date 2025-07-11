@@ -116,3 +116,85 @@ h1{
     justify-content: space-around;
     margin-top: 40px;
 }
+.reviews-section h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.reviews-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1000px; 
+    margin: 0 auto;
+}
+
+.review-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: calc(33.33% - 40px); 
+    min-width: 280px; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    text-align: left;
+    box-sizing: border-box; 
+}
+
+.review-card .stars {
+    
+    margin-bottom: 15px;
+    display: flex; 
+    gap: 5px; 
+}
+
+.review-card .stars img {
+    
+    width: 24px; 
+    height: 24px; 
+    object-fit: contain; 
+}
+
+.review-card h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.review-card p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.reviewer-info {
+    display: flex;
+    align-items: center;
+}
+
+.reviewer-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+.reviewer-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviewer-name {
+    font-weight: bold;
+    color: #333;
+    font-size: 16px;
+}
+
+.review-date {
+    font-size: 14px;
+    color: #999;
+}
