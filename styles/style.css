@@ -3,6 +3,9 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+body{
+    background-color: #d6dded22
+}
 
 .btn-primary{
     background-color: #4E47FF;
@@ -14,9 +17,10 @@
     border-radius: 10px;
     
 }
-.primary-color{
-    color: #4E47FF;
+.btn-primary:hover{
+    background-color: rgba(0, 0, 139, 0.817);
 }
+
 
 header{
     background-image: url(../images/Hero-bg.png);
@@ -51,9 +55,9 @@ nav{
     
 
 }
-/* */
+
 main{
-    max-width:1000px ;
+    max-width:1400px ;
     margin:0 auto;
     color: #252432;
 }
@@ -197,4 +201,94 @@ h1{
 .review-date {
     font-size: 14px;
     color: #999;
+}
+.form-section {
+
+  margin: 200px auto 0  auto;
+  max-width:1200px ;
+  padding:0 20px;
+}
+
+.form-container {
+  display: flex;
+  align-items:flex-start;
+  gap:80px;
+}
+
+/* .form-title {
+  font-size: 80px;
+  font-weight: bold;
+   text-align:center;
+  margin-top: 100px;
+  margin-right: 10px;
+  width:280px;
+  
+
+  
+} */
+ .form-title {
+  font-size: 70px;
+  font-weight: bold;
+  margin-right: 80px; /* This is likely the cause of it being too far */
+  width: 400px;
+  margin-top: 80px;
+text-align:left;
+
+}
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form input{
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+form textarea {
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+form label{
+    font-size: 16px;
+    font-weight: 600;
+}
+footer {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #FFFFFF;
+}
+.logo{
+    font-size: 100px;
+    font-weight: 900;
+     margin-top: 104px;
+        color: #4E47FF;
+}
+.footer-description{
+    max-width: 531px;
+    margin: 8px auto 20px auto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8987A1;
+}
+.footer-nav ul {
+  list-style: none;
+  margin: 0 auto 103px auto;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.footer-nav a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8987A1;
 }
