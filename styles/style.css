@@ -12,6 +12,7 @@
     border: none;
     padding: 12px 36px;
     border-radius: 10px;
+    
 }
 .primary-color{
     color: #4E47FF;
@@ -37,7 +38,7 @@ nav{
     text-align: center;
 }
 .banner-content{
-    max-width: 905px;
+    max-width: 900px;
     margin: 0 auto;
 }
 .banner-title{
@@ -47,5 +48,33 @@ nav{
 .button-design{
     margin-top: 30px;
     
+    
 
+}
+/* */
+main{
+    max-width:1000px ;
+    margin:0 auto;
+    color: #252432;
+}
+.action-description{
+    font-weight:400px ;
+    font-size:24px;
+    width: 517px;
+    height: 60px;
+}
+h1{
+    font-weight: bold;
+    font-size: 42px;
+}
+.action-image{
+    border-radius: 48px;
+    width:405;
+    height:330px
+
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin-top:130px
 }
