@@ -1,35 +1,51 @@
-
-
-
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: weight;
   font-style: normal;
 }
-.main{
-    max-width:1170px;
-    margin:0 auto;
-}
-.nav{
-    display:flex;
-    justify-content: space-around;
-}
-.logo{
-    color:#4E47FF ;
-    font-weight:900 ;
-    font-size: 34px;
 
-
-}
-.sign-up-button{
-    width:132px;
-    height:48px ;
+.btn-primary{
     background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
     color: white;
-    border: 0;
-    border-radius:10px ;
-    font-weight:bold;
-    font-size: 16PX;
+    border: none;
+    padding: 12px 36px;
+    border-radius: 10px;
+}
+.primary-color{
+    color: #4E47FF;
+}
+
+header{
+    background-image: url(../images/Hero-bg.png);
+    height:600px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
+
+}
+.nav-title{
+    font-size: 34px;
+    font-weight: 900;
+}
+.banner{
+    text-align: center;
+}
+.banner-content{
+    max-width: 905px;
+    margin: 0 auto;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 65px;
+}
+.button-design{
+    margin-top: 30px;
+    
 
 }
